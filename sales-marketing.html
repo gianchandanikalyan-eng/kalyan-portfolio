@@ -5,7 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kalyan Gianchandani – Sales and marketing</title>
 <meta name="description" content="Kalyan Gianchandani: final-year MBA at SCMHRD, Pune. Architect by training. Consulting, strategy and B2B sales.">
-<link rel="icon" href="assets/portrait.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
@@ -43,7 +45,7 @@ h1,h2,h3{margin:0;font-weight:700;letter-spacing:-0.035em}
 .ftp{font-size:14px;color:#93898e;margin:14px 0 18px;max-width:340px;line-height:1.55}
 .ftcv{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;color:#74b9f0;border:1px solid rgba(116,185,240,.45);padding:11px 22px;border-radius:980px;transition:background .2s,color .2s}
 .ftcv:hover{background:#74b9f0;color:#141113}
-.ftbar{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:18px 0 30px;border-top:1px solid #2c262a;font-size:12px;color:#776d72}
+.ftbar{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:18px 0 30px;border-top:1px solid #2c262a;font-size:12px;color:#8f868b}
 @media (max-width:860px){.ftgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .nl{font-size:13px;color:#a89ea3;padding:16px 8px;transition:color .2s}
 .nl:hover{color:#ffffff}
@@ -79,6 +81,32 @@ h1,h2,h3{margin:0;font-weight:700;letter-spacing:-0.035em}
 .d1{animation-delay:.1s}.d2{animation-delay:.2s}
 @supports (animation-timeline: view()){.reveal{animation:rise linear both;animation-timeline:view();animation-range:entry 0% cover 22%}}
 @media (max-width:860px){.wrap{padding:0 16px}.g3,.g2{grid-template-columns:1fr !important}.h1{font-size:38px !important}.num{font-size:48px}}
+
+/* ---- design system pass ---- */
+.navin{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.nlinks{display:flex;gap:6px;align-items:center}
+.navcv{margin-left:10px;display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:#74b9f0;padding:7px 15px;border-radius:999px;border:1px solid rgba(116,185,240,.55);background:linear-gradient(90deg,rgba(20,24,40,.22) 0%,rgba(116,185,240,.08) 50%,rgba(255,255,255,.18) 100%);box-shadow:inset 0 1.5px 1px -1px rgba(255,255,255,.75),inset 0 -2px 2px -1px rgba(255,255,255,.6),inset -4px 0 4px -3px rgba(255,255,255,.55),inset 4px 0 5px -4px rgba(255,255,255,.22),inset 0 0 10px rgba(116,185,240,.12)}
+.navcv:hover{color:#141113;background:#74b9f0}
+.mnav{display:none}
+.mnav summary{list-style:none;cursor:pointer;width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;color:#f4eef0;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.05)}
+.mnav summary::-webkit-details-marker{display:none}
+.mnav .ic-x{display:none}.mnav[open] .ic-x{display:block}.mnav[open] .ic-m{display:none}
+.mpanel{position:absolute;left:0;right:0;top:100%;height:calc(100vh - 64px);height:calc(100dvh - 64px);background:#141113;padding:12px 20px 32px;display:flex;flex-direction:column;border-top:1px solid rgba(255,255,255,.08);overflow-y:auto}
+.mpanel a{font-size:24px;font-weight:700;letter-spacing:-.02em;padding:16px 4px;color:#a89ea3;border-bottom:1px solid #2c262a}
+.mpanel a.on{color:#ffffff}
+.mpanel a.mcv{margin-top:24px;align-self:flex-start;font-size:16px;font-weight:600;color:#74b9f0;border:1px solid rgba(116,185,240,.55);border-radius:999px;padding:12px 24px}
+@media (max-width:860px){.nlinks{display:none!important}.mnav{display:block}}
+.kicker+.sh,.kicker+h2{margin-top:8px}
+.sh{font-size:36px;line-height:1.08;letter-spacing:-0.03em}
+.ssub{font-size:17px;color:#93898e;margin:12px 0 0;max-width:720px}
+@media (max-width:860px){.sh{font-size:30px}}
+.lt{text-align:center}
+.lt h2{font-size:42px;line-height:1.05}
+.lt .ssub{margin:14px auto 0;max-width:620px;font-size:18px}
+.lt .acts{display:flex;gap:26px;align-items:center;justify-content:center;margin-top:28px;flex-wrap:wrap}
+.card,.ecard,.jcta,.do,.big,.small,.panel,.tkcol,.ccard,.bcard,.rcard,.feature,.slider,.stat{border-radius:24px!important}
+.do,.small,.ccard{background:linear-gradient(180deg,#1f1a1d,#1a1619)!important;border:1px solid #2c262a}
+.card:hover,.ecard:hover,.jcta:hover,.do:hover,.big:hover,.small:hover,.bcard:hover,.ccard:hover{transform:translateY(-4px)!important;border-color:rgba(116,185,240,.45)!important}
 </style>
 
 </head>
