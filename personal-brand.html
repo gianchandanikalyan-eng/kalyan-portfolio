@@ -85,6 +85,19 @@ h1,h2,h3{margin:0;font-weight:700;letter-spacing:-0.035em}
 .bcard:hover .bcover img{transform:scale(1.04)}
 @media (max-width:860px){.wrap{padding:0 16px}.reels{grid-template-columns:repeat(2,minmax(0,1fr)) !important}.h1{font-size:38px !important}.jia{grid-template-columns:1fr !important}}
 
+.cwrules{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:16px}
+.cwr{background:linear-gradient(180deg,#1f1a1d,#1a1619);border:1px solid #2c262a;border-radius:18px;padding:18px}
+.cwn{font-size:12px;font-weight:700;color:#ff7597;letter-spacing:.08em}
+.cwt{font-size:15px;font-weight:600;color:#f4eef0;margin-top:6px;line-height:1.3}
+.cwd{font-size:13px;color:#93898e;margin-top:4px;line-height:1.45}
+.cwtrack{overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;margin-top:20px;padding-bottom:12px;scrollbar-width:thin;scrollbar-color:#3a3236 transparent}
+.cwlane{display:flex;gap:16px;width:max-content}
+.cwf{margin:0;scroll-snap-align:start;flex:0 0 auto;width:min-content}
+.cwi{height:260px;border-radius:20px;overflow:hidden;background:#e6e0d4;border:1px solid #2c262a}
+.cwi img{height:100%;width:auto;display:block}
+.cwf figcaption{padding:12px 4px 0;max-width:420px}
+.cwarr{width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.28);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;color:#f4eef0;background:linear-gradient(90deg,rgba(20,24,40,.22) 0%,rgba(116,185,240,.08) 50%,rgba(255,255,255,.18) 100%);box-shadow:inset 0 1.5px 1px -1px rgba(255,255,255,.75),inset 0 -2px 2px -1px rgba(255,255,255,.6)}
+@media (max-width:860px){.cwrules{grid-template-columns:1fr 1fr}.cwi{height:220px}}
 /* ---- design system pass ---- */
 .navin{display:flex;justify-content:space-between;align-items:center;gap:12px}
 .nlinks{display:flex;gap:6px;align-items:center}
