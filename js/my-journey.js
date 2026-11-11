@@ -20,7 +20,7 @@ class Component extends DCLogic {
         story: 'Selling high-ticket courses to parents for the Little Prodigies project, and building the content that brought them in.',
         points: ['Drove high-ticket course sales by understanding what each parent wanted for their child and building trust before the pitch.', 'Managed weekly online workshops with an average attendance of 100+ parents.', 'Built targeted content strategies and formats for kids and their parents, increasing engagement across multiple platforms.', 'Optimised content plans for reach, improving audience retention in the kids’ content segment.'],
         skills: ['Consultative sales', 'Acquisition', 'Zero to one'] },
-      { org: 'Archinza Connect', short: 'Product Marketing Manager', col: 'Archinza', period: 'Jan 2024 – Apr 2025', place: 'New Delhi', tag: 'Full-time', role: 'Product Marketing Manager',
+      { org: 'Archinza Connect', short: 'Content Strategist (Product)', col: 'Archinza', period: 'Jan 2024 – Apr 2025', place: 'New Delhi', tag: 'Full-time', role: 'Content Strategist (Product)',
         logo: 'assets/d106ebc7400a33ee37e3a3ff333eecd2.png', logoBg: '#1f4ed8', wide: 'assets/ae6aa5697ca5f6f8d74545bcd68a0488.png', wideBg: '#ffffff',
         story: 'A startup again, this time close to the business: solving problems daily and shaping an idea into a launched platform.',
         points: ['Supported product management for a design and construction matchmaking platform, from ideation to launch.', 'Wrote UX copy and wireframes for onboarding, dashboards, chatbot and homepage, backed by market research and surveys.', 'Coordinated with multiple agencies and the UI/UX, web development, engineering and marketing teams.'],

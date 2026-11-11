@@ -6,8 +6,8 @@ class Component extends DCLogic {
     this.state = { s: 0, lb: false };
     const B = (id) => window.__A[id];
     const team = 'The Design Lab, SCMHRD';
-    this.order = ['ultra', 'hero', 'maruti', 'bp', 'nest'];
-    this.files = { ultra: 'case-ultratech.html', hero: 'case-hero.html', maruti: 'case-maruti.html', bp: 'case-bp.html', nest: 'case-novartis.html', jia: 'case-jia.html' };
+    this.order = ['ultra', 'hero', 'bp', 'nest'];
+    this.files = { ultra: 'case-ultratech.html', hero: 'case-hero.html', maruti: 'CaseMaruti.dc.html', bp: 'case-bp.html', nest: 'case-novartis.html', jia: 'case-jia.html' };
     this.cases = {
       ultra: {
         comp: 'UltraQuest 3.0 · National 1st Runner-up',
